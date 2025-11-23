@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suf's Cool Games</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .game-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background-color: #ff6b6b;
+      color: white;
+    }
+
+    .game-button img {
+      width: 80px; /* Adjust size as needed */
+      height: 80px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+    }
+
+    .game-button:hover {
+      transform: scale(1.1);
+      background-color: #ff3b3b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Suf's Cool Games</h1>
+  <div class="button-container">
+    <button class="game-button" title="It's Begging Time" onclick="window.open('https://orteil.dashnet.org/igm/?g=https://pastebin.com/raw/5exkhMMs', '_blank');">
+      <img src="https://i.imgur.com/3N4nfV6.png" alt="Game 1 Image">
+	It's begging time
+    </button>
+    <button class="game-button" title="Random Compliment Generator" onclick="window.open('https://youreyesarecameras-dot.github.io/1/', '_blank');">
+      <img src="https://i.imgur.com/JHHJSyu.png" alt="Game 2 Image">
+	Random Compliment Generator
+    </button>
+  </div>
+</body>
+</html>
